@@ -8,11 +8,11 @@ import Model.Student;
 /**Класс Вид на Аглийском языке */
 public class ViewEng implements iGetView{
     public void printAllStudents(List<Student> students) {
-        System.out.println("#############--Displaying a list of students!--###########");
+        System.out.println("----Displaying a list of students!----");
         for (Student student : students) {
             System.out.println(student);
         }
-        System.out.println("##################----End of list!----###################");
+        System.out.println("----End of list!----");
     }
 
     @Override
